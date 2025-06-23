@@ -1,13 +1,23 @@
-# Sample Hardhat Project
+# Campaign Reward Protocol (Demo Project)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A fully decentralized smart contract system designed to manage participation-based campaigns, fairly select winners using verifiable randomness, and handle reward distribution directly on-chain.
 
-Try running some of the following tasks:
+---
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## 🔐 Note
+
+This is a private proof-of-concept implementation. The full product vision is confidential and still under development.
+
+---
+
+## ⚙️ Features
+
+- Campaign contract for managing participants
+- Chainlink VRF integration for winner selection
+- ERC20 token rewards with on-chain claiming
+- Local testing and simulation scripts using Hardhat
+
+---
+
+
+
